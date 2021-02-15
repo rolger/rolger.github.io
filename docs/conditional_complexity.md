@@ -1,3 +1,8 @@
+---
+layout: default
+title: Conditional Complexity
+nav_order: 3
+---
 
 The focus today is the Dependency in Software. You could explain that Dependency Injection is a concrete strategy to achieve Dependency Inversion.
 
