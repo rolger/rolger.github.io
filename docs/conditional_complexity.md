@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Learning Hours 
 title: Conditional Complexity
 nav_order: 3
 ---
