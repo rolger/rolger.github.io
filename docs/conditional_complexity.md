@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Clean Code
-title: Conditional Complexity
+title: Dependencies
 nav_order: 4
 ---
 
