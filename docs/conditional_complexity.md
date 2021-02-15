@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Learning Hours 
+parent: Clean Code
 title: Conditional Complexity
-nav_order: 3
+nav_order: 4
 ---
 
 The focus today is the Dependency in Software. You could explain that Dependency Injection is a concrete strategy to achieve Dependency Inversion.
