@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Configuration
+title: Learning Hours
 nav_order: 2
 ---
+
+I follow the 4 C approach
+
+My learning hours are grouped by topics
+
 
 # Configuration
 
