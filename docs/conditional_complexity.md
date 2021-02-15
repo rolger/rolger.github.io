@@ -1,98 +1,55 @@
 ---
 layout: default
 parent: Clean Code
-title: Dependencies
+title: Conditional Complexity
 nav_order: 4
 ---
 
-The focus today is the Dependency in Software. You could explain that Dependency Injection is a concrete strategy to achieve Dependency Inversion.
+## Schedule
+- 10'
+- 20'
+- 40'
+- 5'
 
-## Connections
+## Connections: Well-known refactoring in my IDE
 
-### Dependencies in Software
+* Create a list of your most well-known refactorings
+* Assign the key binding in your IDE
 
-Ask the participants
+## Concepts: refactoring conditionals 
 
-* What is coupling?
-* What are the drawbacks of high coupling?
-* What are the advantages of loode coupling?
+### Explain the transformations
+Basic idea is that there are different possibilities to transform conditional expressions
 
-### Dealing with Dependencies Quizz
+* Invert condition with De Morgan�s law
+* Invert condition to exchange if and else statements
+* Join nested if statements with operator '&&'
+* Split long operator '&&' conditions into nested if statements
+* Remove unnecessary 'else' statement and use early return statements in 'if' instead
+* Multiple 'if' statements with same condition: join code into one block (and reverse - some kind of split phase)
+* If there is a duplication inside the if block:
+  * Join sequential 'if' statements with with operator '||'
+  * Split long operator '||' conditions into sequential 'if' statements with the same block
+* Group and order multiple conditions by variable usage
+* Replace 'if' with 'switch' and vice versa
 
-https://www.mentimeter.com/s/a708d73b675e16ded775f39ded162519/b889518b2732/edit
+### examples of conditional transformations
+Mob Programming: examples of conditional transformations
 
+## Concrete Example 
 
-## Concepts: 
+Your task is to refactor the code in the TennisGame2 Kata.
 
-### Principles
-
-* Inversion of Control
-* SOLID
-    * Single Responsibility Principle
-    * Open Close Principle
-    * Liskov Substitution Principle
-    * Interface Segregation Principle
-    * Dependency Inversion Principle
-* KISS (Keep It Simple, Stupid)
-* DRY (Don't repeat yourself)
-* Composition over Inheritance
-* POLS (Principle of least suprise)
-* YAGNI (You Aren’t Gonna Need It)
-* Tell Don't Ask
-* Law of Demeter
-* Different Levels of Abstractions
-* Separation of concerns
-
-### Patterns
-
-* Creational design patterns
-    * Abstract Factory
-    * Builder
-    * Factory Method
-    * Object Pool
-    * Prototype
-    * Singleton
-    * Dependency Injection
-* Structural design patterns
-    * Adapter
-    * Bridge
-    * Composite
-    * Decorator
-    * Facade
-    * Flyweight
-    * Private Class Data
-    * Proxy
-* Behavioral design patterns
-    * Chain of responsibility
-    * Command
-    * Interpreter
-    * Iterator
-    * Mediator
-    * Memento
-    * Null Object
-    * Observer
-    * State
-    * Strategy
-    * Template method
-    * Visitor
-
-
-
-## Concrete
-
-There is a kata with 2 classes in Azure: 
-https://dev.azure.com/NagarroAT/Training%20ICAgile/_git/icagile-programming-class-2020admiral?version=GB05_DesignPrinciples&anchor=design-principle-exercises
-
-* Introduce the example - goal is unit tests!
-* Tell them that they are not allowed to change the code
-* Split up in pairs
-* Stop the breakout sessions when at least some pairs have discovered the problem and start asking you if they really are not allowed to change the code
-* Ask someone to explain the problem to the group. (The dependency on the Sensor is awkward since you can’t control what pressure reading it gives). 
-* Ask if anyone can relate this to the Dependency Inversion Principle. Hopefully someone will explain it to the group. If not, go through it yourself. (The Alarm has a dependency on a detail - Sensor - rather than an abstraction).
-* Ask them to continue to work on the same exercise, but now they are allowed to change the code to solve the DIP violation. Let them create an abstraction for the TirePressureMonitor have the Alarm class depend on that instead of a concrete class. They should find it possible to write tests for the class now, using a stub implementation of the abstraction.
-
-If that goes quickly, consider doing the TextConverter problem as well in a similar way.
-
+Use the keys for the following refactorings:
+- rename variable
+- extract method
+- extract local variable/field
+- inline method/variable
+- change signature
+    
 ## Conclusions
 
-Recap the exercise in the group on a Miro board
+What changed ???
+
+
+Emily Bache: https://github.com/emilybache/Refactor-Conditionals
