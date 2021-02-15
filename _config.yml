@@ -30,7 +30,9 @@ twitter_username: rolger
 github_username:  rolger
 
 # Build settings
-theme: minima
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+
 plugins:
   - jekyll-feed
 
