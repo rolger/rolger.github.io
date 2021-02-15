@@ -1,3 +1,9 @@
+---
+layout: default
+title: Katas
+nav_order: 2
+---
+
 # Katas
 
 * Tennis ([Tennis repo](https://github.com/emilybache/Tennis-Refactoring-Kata))
