@@ -22,10 +22,16 @@ Instructions:
 1. Read the terms on the board (cards) and arrange them into three categories. 
 2. Describe the categories in a sentence
 
-List of terms:
+List of statements
 
-Categroy | Statements
-
+| Category        | Statements                 | 
+|:----------------|:---------------------------|
+| Noise           | Layout and conventions     |
+|                 | Avoid unnecessary code     |
+|                 | Remove dead code           |
+|                 | Remove obvious comments    |
+| Principle of least surprise (= POLS) | good and plenty   |
+| Complexity      | Dont implement clever code |
 
 * Noise
   * Layout and conventions
@@ -65,7 +71,7 @@ Categroy | Statements
 
 ## Concepts
 
-Repeat Slides: XP - Rules of Simple Design
+Present Slides: XP - Rules of Simple Design
 
 Simplicity:  
 	- Noise / POLS / Complexity
