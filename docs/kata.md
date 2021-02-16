@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Katas
-nav_order: 2
+nav_order: 3
 ---
 
 # Katas
