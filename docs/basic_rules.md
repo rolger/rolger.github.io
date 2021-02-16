@@ -24,57 +24,29 @@ Instructions:
 
 List of statements
 
-| Category        | Statements                 | 
-|:----------------|:---------------------------|
-| Noise           | Layout and conventions     |
-|                 | Avoid unnecessary code     |
-|                 | Remove dead code           |
-|                 | Remove obvious comments    |
-| Principle of least surprise (= POLS) | good and plenty   |
-| Complexity      | Dont implement clever code |
-
-* Noise
-  * Layout and conventions
-    * Use braces
-    * Group with newline
-    * Lookout for code symmetry
-    * Group parameter validation by order
-    * Favor String.format() over operator `+`
-    * Use guard clauses to fail fast
-    * Follow Java naming conventions
-    * Follow setter/getter naming conventions
-    * Same code formatting rules
-  * Avoid unnecessary code
-    * Use Java API instead of do-it-yourself
-    * Favor for-each loops
-    * Remove unnecessary comparisons
-    * Avoid temporary variables instead return a boolean directly
-  * Remove dead code
-  * Remove obvious comments
-
-* Principle of least surprise (= POLS)
-  * Name are not misleading
-  * Remove wrong comments
-  * Avoid mixing side-effects with business logic
-
-* Complexity
-  * Dont implement clever code
-  * Split long methods
-  * Names should describe the context and not the implementation
-    * Avoid abbreviations
-  * Avoid deep nesting levels
-  * Replace magic numbers with constants and enumerations
-  * Handle conditional complexity
-    * Avoid negations in conditional expressions
-  * Avoid deep nesting levels
-
-
+| Category                             | Statements                 | 
+|:-------------------------------------|:---------------------------|
+| Noise                                | Layout and conventions     |
+|                                      | Avoid unnecessary code     |
+|                                      | Remove dead code           |
+|                                      | Remove obvious comments    |
+| Principle of least surprise (= POLS) | Names are not misleading   |
+|                                      | Remove wrong comments      |
+|                                      | Avoid mixing side-effects with business logic |
+| Complexity                           | Dont implement clever code |
+|                                      | Split long methods         |
+|                                      | Names should describe the context and not the implementation |
+|                                      | Avoid deep nesting levels  |
+|                                      | Replace magic numbers with constants and enumerations |
+|                                      | Handle conditional complexity |
+|                                      | Avoid deep nesting levels  |
+  
 ## Concepts
 
 Present Slides: XP - Rules of Simple Design
 
-Simplicity:  
-	- Noise / POLS / Complexity
+3 Categories of Simplicity:  
+ - Noise / POLS / Complexity
 
 
 ## Concrete Example
