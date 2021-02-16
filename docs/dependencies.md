@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Clean Code
+parent: Design Principles
 grand_parent: Learning Hours
 title: Dependencies
 nav_order: 4
