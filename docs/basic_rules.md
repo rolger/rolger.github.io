@@ -24,6 +24,9 @@ Instructions:
 
 List of terms:
 
+Categroy | Statements
+
+
 * Noise
   * Layout and conventions
     * Use braces
