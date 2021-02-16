@@ -1,3 +1,10 @@
+---
+layout: default
+parent: Clean Code
+grand_parent: Learning Hours
+title: Basic Rules
+nav_order: 1
+---
 
 
 ## Schedule
