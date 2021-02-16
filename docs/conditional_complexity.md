@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Clean Code
-grand_parent: 
+grand_parent: Learning Hours
 title: Conditional Complexity
 nav_order: 1
 ---
