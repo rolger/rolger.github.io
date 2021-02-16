@@ -2,7 +2,7 @@
 layout: default
 parent: Clean Code
 title: Conditional Complexity
-nav_order: 4
+nav_order: 3
 ---
 
 ## Schedule
