@@ -40,4 +40,6 @@ Explain some terms about Testing and use powerpoint slides.
 The participants should checkout the code from the **GildedRose** and implement as many tests as necessary. 
 
 ## Conclusions: Gilded Rose
-
+What have you achieved?
+How did you proceed? 
+What did you start with?
