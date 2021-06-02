@@ -6,39 +6,39 @@ title: Better Assertions
 nav_order: 1
 ---
 
+# Writing Better Test Assertions
+Implement assertions in a none "hard-to-maintain" style.
+
+Thanks to webpapaya: https://dev.to/webpapaya/writing-better-test-assertions-lml
+
 ## Schedule
-- 10 min
-- 5 min
-- 40 min
-- 5 min
+- 5 min connections: Explain the term AAA
+- 10 min concepts: Introduce a assertion library like FluentAssertion or AssertJ
+- 40 min concrete: example
+- 5 min conclusions: What should we take care about in assertions? 
 
 ## Connections
 
+Explain the term AAA. What is the purpose of the different phases?
 
 
 ## Concepts
 
+Introduce a assertion library like FluentAssertion or AssertJ.
 
 
 ## Concrete Example
 
-Thanks to webpapaya: https://dev.to/webpapaya/writing-better-test-assertions-lml
+Look at https://github.com/Nagarro-ICAgile-Programming/01-Unit-Test-Assertions.
 
-### Story 1
-As shop owner I want to view a list of all employees, which are older than 18 years, so that I know who is allowed to work on Sundays.
-
-### Story 2
-As shop owner I want the list of employees to be sorted by their name, so I can find employees easier.
-
-### Story 3
-As shop owner I want the list of employees to be capitalized, so I can read it better.
-
-### Story 4
-As shop owner I want the employees to be sorted by their names descending instead of ascending.
+* Story 1: As shop owner I want to view a list of all employees, which are older than 18 years, so that I know who is allowed to work on Sundays.
+* Story 2: As shop owner I want the list of employees to be sorted by their name, so I can find employees easier.
+* Story 3: As shop owner I want the list of employees to be capitalized, so I can read it better.
+* Story 4: As shop owner I want the employees to be sorted by their names descending instead of ascending.
 
 ## Conclusions
 
-What should we ake care?
+What should we take care about in assertions? Note down in your own words what you learnt about a assertions.
 
 
 ```
