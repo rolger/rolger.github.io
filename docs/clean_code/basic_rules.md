@@ -19,7 +19,7 @@ Prepare either cards or a Miro board.
 
 Instructions:
 
-1. Read the terms on the board (cards) and arrange them into three categories. 
+1. Read the terms on the board (cards) and arrange them into three categories.  Bla Bla!
 2. Describe the categories in a sentence
 
 List of statements
