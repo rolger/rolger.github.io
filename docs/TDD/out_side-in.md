@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: TDD
+parent: Test Driven Development
 grand_parent: Learning Hours
 title: Out-Side-In
 nav_order: 1
