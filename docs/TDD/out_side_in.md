@@ -6,12 +6,17 @@ title: Out-Side-In
 nav_order: 1
 ---
 
-# Finding exmaples
-Implement assertions in a none "hard-to-maintain" style.
+# Finding examples for in-side-out TDD
+Designing an API of collaborators driven by test 
+
 
 ## Connect
+Ask the following question: Which terms came into your mind about TDD?
+
 
 ## Concepts
+Explain the different TDD styles
+
 
 ## Concrete
 Present the following kata to the paritcipants:
@@ -29,7 +34,11 @@ We are going to test drive a service for calculating the shipping cost of a pack
 Design with TDD the interface of another service to calculate the shipping costs. This service will use some REST call to retrieve the required information
 
 
+Introduce this table to document the examples
+Ask the participants to find their examples in pairs (just the IN and OUT column)
+Ask the participants to design an interface for the geo requests
+Implement tests and code
+
 ## Conclusions
 
-Ask the participants
-- 
+
